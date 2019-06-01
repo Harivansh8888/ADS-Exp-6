@@ -25,3 +25,16 @@ cout<<"Temperature in fahrenhiet is:";
 cout<<f<<endl;
 }
 };
+class kelvin:public temperature
+{
+
+public:
+kelvin(float a):temperature(a){}
+float k;
+void calculate()
+{
+k=c+273.15;
+cout<<"Temperature in kelvin is:";
+cout<<k<<endl;
+}
+};
