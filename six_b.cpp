@@ -38,3 +38,14 @@ cout<<"Temperature in kelvin is:";
 cout<<k<<endl;
 }
 };
+int main()
+{
+int arg;
+cout<<"press 1 to begin"<<endl;
+cin>>arg;
+fahrenhiet f1(arg);
+kelvin k1(arg);
+f1.calculate();
+k1.calculate();
+return 0;
+}	
