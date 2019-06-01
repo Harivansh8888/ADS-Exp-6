@@ -38,3 +38,14 @@ cout<<"Temperature in fahrenheit : "<<f<<endl;
 }
 };
 
+int main()
+{
+int arg;
+cout<<"Pres 1 to begin"<<endl;
+cin>>arg;
+Temp x(arg);
+Temperature *ptr;
+ptr=&x;
+ptr->calculate();
+return 0;
+}
